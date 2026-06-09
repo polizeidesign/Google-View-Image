@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Polizei Google View Image V7",
+  "version": "1.9",
+  "description": "Restores the View Image button on Google Images.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://google.com/search*",
+        "https://www.google.de/search*",
+        "https://www.google.co.uk/search*",
+        "https://www.google.fr/search*",
+        "https://www.google.ca/search*",
+        "https://www.google.com.au/search*"
+      ],
+      "js": ["scripts/pgi-content.js"],
+      "css": ["styles/pgi-view-image.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

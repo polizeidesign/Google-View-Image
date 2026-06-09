@@ -1,0 +1,9 @@
+/*
+* Polizei Google Image V1.9 - Mete Uzun
+   Positioning is handled inline by the content script; keep styling minimal
+   so the cloned anchor inherits Google's native pill appearance. *
+/
+   
+a.pgi-view-image {
+  margin: 0;
+}
