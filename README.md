@@ -1,6 +1,8 @@
 Google View Image Button - Restored
 
 Restores the classic "View Image" button in Google Images.
+<img width="760" height="563" alt="polizeidesign" src="https://github.com/user-attachments/assets/b48031fa-ba80-4680-bfcc-d6f7ad4e7b21" />
+
 
 Features
 Restores direct image access from Google Images
